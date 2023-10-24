@@ -1,0 +1,117 @@
+@import url(https://fonts.google.com/specimen/Rubik?preview.text=Forget%20password&preview.text_type=custom);
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 15, 15);
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .container {
+    background-color: #333;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: 25px 10px;
+    position: relative;
+  }
+
+  .container img,
+  .container button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  .container:hover img{
+    opacity: 1;
+  }
+
+  .container:hover button{
+    opacity: 1;
+  }
+  
+  .container h2 {
+    color: #fff;
+  }
+  
+  .container p {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .h2game{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  img{
+    border-radius: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 248px;
+    height: 109px;
+  }
+
+  header ion-icon{
+    padding-left: 1720px;
+  }
+
+  button{
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 25px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 35%;
+    margin-top: 32%;
+  }
